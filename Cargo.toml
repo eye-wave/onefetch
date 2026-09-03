@@ -1,3 +1,6 @@
+
+cargo-features = ["profile-rustflags", "trim-paths"]
+
 [workspace.package]
 authors = ["o2sh <ossama-hjaji@live.fr>"]
 edition = "2024"
@@ -102,3 +105,12 @@ enable-ansi-support = "0.3.1"
 
 [features]
 fail-on-deprecated = []
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+opt-level = "z"
+panic = "abort"
+strip = true
+trim-paths = "all"
+rustflags = ["-Cdebuginfo=0", "-Zthreads=8"]

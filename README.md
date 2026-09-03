@@ -2,6 +2,8 @@
 
 # Onefetch - Command-line Git information tool
 
+This fork merged the Astro pr that has been sitting since 2024, WGSL pr and a nicer Svelte logo.
+
 <p><img src="assets/onefetch.svg" height="100" alt="Onefetch logo"></p>
 
 [![Crates.io Version](https://img.shields.io/crates/v/onefetch)](https://crates.io/crates/onefetch)

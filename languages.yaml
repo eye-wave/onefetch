@@ -202,6 +202,7 @@ Astro:
       - "#FFFFFF"
       - "#FF5A04"
     chip: "#FF7F3B"
+  icon: '\u{e735}'
 AutoHotKey:
   type: programming
   ascii: |
@@ -1039,6 +1040,7 @@ Gleam:
       - "#FFAFF3"
       - "#FFFFFF"
     chip: "#FFAFF3"
+  icon: '\u{e914}'
 Glsl:
   type: programming
   ascii: |
@@ -1069,6 +1071,7 @@ Glsl:
       - "#5487a6"
       - "#bc258e"
     chip: "#5686a5"
+  icon: '\u{e855}'
 Go:
   type: programming
   ascii: |
@@ -3362,6 +3365,7 @@ WGSL:
       - "#0086E8"
       - "#0093FF"
     chip: "#4285F4"
+  icon: '\u{e955}'
 
 Wolfram:
   type: programming

@@ -1895,7 +1895,7 @@ Nix:
 Nushell:
   type: programming
   ascii: |
-    {0} _ __  
+    {0} _ __
     {0}| '_ \      {1}__
     {0}| | | |     {1}\ \
     {0}| | |_|  _  {1} \ \
@@ -2646,7 +2646,7 @@ Slang:
     {0}         /   {1}-==============-
     {0}       / {1}-======-         -====-
     {1}      -=======-
-    {1}   -=======-          
+    {1}   -=======-
     {1} -=======-             {3}-====-
     {1}-=====-                  {3}-=======-
     {1}-=====-                     {3}-=====-
@@ -2765,27 +2765,27 @@ Sql:
 Svelte:
   type: markup
   ascii: |
-    {0}SSSSSSSSSSSSSSSSSS{1}sssssssssss{0}SSSSSSSS
-    {0}SSSSSSSSSSSSSSS{1}sssssssssssssssss{0}SSSSS
-    {0}SSSSSSSSSSS{1}sssssssssss{0}SSSS{1}ssssssss{0}SSS
-    {0}SSSSSSSS{1}ssssssssss{0}SSSSSSSSSSS{1}sssssss{0}S
-    {0}SSSSS{1}sssssssss{0}SSSSSSSSSSSSSSSSS{1}sssss{0}S
-    {0}SSS{1}ssssssss{0}SSSSSSSSSS{1}sssss{0}SSSSSS{1}ssss{0}S
-    {0}S{1}sssssss{0}SSSSSSSSSS{1}sssssssss{0}SSSSS{1}ssss{0}S
-    {0}S{1}sssss{0}SSSSSSSSS{1}sssssssssssssssssssss{0}S
-    {0}S{1}sssss{0}SSSSSS{1}ssssssss{0}SSSSSS{1}ssssssssss{0}S
-    {0}S{1}sssss{0}SSSSS{1}ssssss{0}SSSSSSSSSSSS{1}ssssss{0}SS
-    {0}S{1}sssss{0}SSSSSSSSSSSSSSSSSSSSSSSSS{1}sssss{0}S
-    {0}SS{1}ssssss{0}SSSSSSSSSSSS{1}ssssss{0}SSSSS{1}sssss{0}S
-    {0}S{1}ssssssssss{0}SSSSSS{1}ssssssss{0}SSSSSS{1}sssss{0}S
-    {0}S{1}sssssssssssssssssssss{0}SSSSSSSSS{1}sssss{0}S
-    {0}S{1}ssss{0}SSSSS{1}sssssssss{0}SSSSSSSSSS{1}ssssss{0}SS
-    {0}S{1}ssss{0}SSSSSS{1}sssss{0}SSSSSSSSSS{1}ssssssss{0}SSS
-    {0}S{1}sssss{0}SSSSSSSSSSSSSSSSS{1}sssssssss{0}SSSSS
-    {0}S{1}sssssss{0}SSSSSSSSSSS{1}ssssssssss{0}SSSSSSSS
-    {0}SSS{1}ssssssss{0}SSSS{1}sssssssssss{0}SSSSSSSSSSS
-    {0}SSSSS{1}sssssssssssssssss{0}SSSSSSSSSSSSSSS
-    {0}SSSSSSSS{1}sssssssssss{0}SSSSSSSSSSSSSSSSSS
+    {0}                 sssssssssss
+    {0}              sssssssssssssssss
+    {0}          sssssssssss{1}SSSS{0}ssssssss
+    {0}       ssssssssss{1}SSSSSSSSSSS{0}sssssss
+    {0}    sssssssss{1}SSSSSSSSSSSSSSSSS{0}sssss
+    {0}  ssssssss{1}SSSSSSSSSS{0}sssss{1}SSSSSS{0}ssss
+    {0}sssssss{1}SSSSSSSSSS{0}sssssssss{1}SSSSS{0}ssss
+    {0}sssss{1}SSSSSSSSS{0}sssssssssssssssssssss
+    {0}sssss{1}SSSSSS{0}ssssssss{1}SSSSSS{0}ssssssssss
+    {0}sssss{1}SSSSS{0}ssssss{1}SSSSSSSSSSSS{0}ssssss
+    {0}sssss{1}SSSSSSSSSSSSSSSSSSSSSSSSS{0}sssss
+    {0} ssssss{1}SSSSSSSSSSSS{0}ssssss{1}SSSSS{0}sssss
+    {0}ssssssssss{1}SSSSSS{0}ssssssss{1}SSSSSS{0}sssss
+    {0}sssssssssssssssssssss{1}SSSSSSSSS{0}sssss
+    {0}ssss{1}SSSSS{0}sssssssss{1}SSSSSSSSSS{0}ssssss
+    {0}ssss{1}SSSSSS{0}sssss{1}SSSSSSSSSS{0}ssssssss
+    {0}sssss{1}SSSSSSSSSSSSSSSSS{0}sssssssss
+    {0}sssssss{1}SSSSSSSSSSS{0}ssssssssss
+    {0}  ssssssss{1}SSSS{0}sssssssssss
+    {0}    sssssssssssssssss
+    {0}       sssssssssss
   colors:
     ansi:
       - red
@@ -2793,8 +2793,7 @@ Svelte:
     hex:
       - "#FF3C00"
       - "#FFFFFF"
-    chip: "#FF3E00"
-  icon: '\u{E697}'
+    chip: "#FF3C00"
 Svg:
   type: data
   ascii: |
